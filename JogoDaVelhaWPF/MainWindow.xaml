@@ -56,6 +56,37 @@
         <Button Background="Transparent" Grid.Row="0" Grid.Column="0" Name="Posicao00" Click="Posicao00_Click">
             <Image Source="{Binding Tabuleiro.Tabuleiro[0][0], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
         </Button>
-        
+
+        <Button Background="Transparent" Grid.Row="0" Grid.Column="2" Name="Posicao01" Click="Posicao01_Click">
+            <Image Source="{Binding Tabuleiro.Tabuleiro[1][0], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
+        </Button>
+
+        <Button Background="Transparent" Grid.Row="0" Grid.Column="4" Name="Posicao02" Click="Posicao02_Click">
+            <Image Source="{Binding Tabuleiro.Tabuleiro[2][0], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
+        </Button>
+
+        <Button Background="Transparent" Grid.Row="2" Grid.Column="0" Name="Posicao10" Click="Posicao10_Click">
+            <Image Source="{Binding Tabuleiro.Tabuleiro[0][1], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
+        </Button>
+
+        <Button Background="Transparent" Grid.Row="2" Grid.Column="2" Name="Posicao11" Click="Posicao11_Click">
+            <Image Source="{Binding Tabuleiro.Tabuleiro[1][1], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
+        </Button>
+
+        <Button Background="Transparent" Grid.Row="2" Grid.Column="4" Name="Posicao12" Click="Posicao12_Click">
+            <Image Source="{Binding Tabuleiro.Tabuleiro[2][1], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
+        </Button>
+
+        <Button Background="Transparent" Grid.Row="4" Grid.Column="0" Name="Posicao20" Click="Posicao20_Click">
+            <Image Source="{Binding Tabuleiro.Tabuleiro[0][2], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
+        </Button>
+
+        <Button Background="Transparent" Grid.Row="4" Grid.Column="2" Name="Posicao21" Click="Posicao21_Click">
+            <Image Source="{Binding Tabuleiro.Tabuleiro[1][2], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
+        </Button>
+
+        <Button Background="Transparent" Grid.Row="4" Grid.Column="4" Name="Posicao22" Click="Posicao22_Click">
+            <Image Source="{Binding Tabuleiro.Tabuleiro[2][2], Converter={StaticResource Conversor}}"  Stretch="Uniform" />
+        </Button>
     </Grid>
 </Window>

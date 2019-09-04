@@ -32,5 +32,45 @@ namespace JogoDaVelhaWPF
         {
             this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 0, 0);
         }
+
+        private void Posicao01_Click(object sender, RoutedEventArgs e)
+        {
+            this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 0, 1);
+        }
+
+        private void Posicao02_Click(object sender, RoutedEventArgs e)
+        {
+            this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 0, 2);
+        }
+
+        private void Posicao10_Click(object sender, RoutedEventArgs e)
+        {
+            this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 1, 0);
+        }
+
+        private void Posicao11_Click(object sender, RoutedEventArgs e)
+        {
+            this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 1, 1);
+        }
+
+        private void Posicao12_Click(object sender, RoutedEventArgs e)
+        {
+            this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 1, 2);
+        }
+
+        private void Posicao20_Click(object sender, RoutedEventArgs e)
+        {
+            this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 2, 0);
+        }
+
+        private void Posicao21_Click(object sender, RoutedEventArgs e)
+        {
+            this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 2, 1);
+        }
+
+        private void Posicao22_Click(object sender, RoutedEventArgs e)
+        {
+            this.Tabuleiro.Jogar(this.Tabuleiro.JogadorAtual, 2, 2);
+        }
     }
 }
