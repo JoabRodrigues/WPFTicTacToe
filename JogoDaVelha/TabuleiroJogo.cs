@@ -31,7 +31,7 @@ namespace JogoDaVelha
         {
             // 1 | 2 = 1 + 1 = 2 -- Era um   Vira Dois
             // 2 | 2 = 0 + 1 = 1 -- Era Dois Vira Um
-            JogadorAtual = (JogadorAtual | NUMERO_JOGADORES) + 1;
+            JogadorAtual = (JogadorAtual % NUMERO_JOGADORES) + 1;
         }
         private static int TAMANHO_TABULEIRO = 3;
 
